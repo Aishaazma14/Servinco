@@ -1,2 +1,3 @@
 # Servinco
-A social app for service of people
+A social app for service of people.
+
