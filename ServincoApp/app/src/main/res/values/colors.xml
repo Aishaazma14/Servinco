@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#5773FF</color>
+    <color name="colorPrimaryDark">#665EFF</color>
+    <color name="colorAccent">#3497FD</color>
+    <color name="btnColor">#3ACCE1</color>
+    <color name="screenBgColor">#f2f2f2</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+
+
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#FFB051E2</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#FFFADDFD</color>
+    <color name="hintBackground">#F8F8F8</color>
+    <color name="btnTextColor">#FFFFFF</color>
+    <color name="btn_background">#47BCFE</color>
+
+    <color name="colorGrey">#D3D3D3</color>
+
+
+    <color name="logoColor">#000000</color>
+    <color name="hintColorEditText">#d2d2d2</color>
+    <color name="colorTextButton">#ffffff</color>
+    <color name="SettingsTextVu">#ffffff</color>
+    <color name="SettingsListText">#000000</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
 </resources>
+
+

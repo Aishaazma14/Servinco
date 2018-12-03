@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lottie_image_width">250dp</dimen>
+   <dimen name="lottie_image_height">150dp</dimen>
+    <dimen name="image_small_height">150dp</dimen>
+    <dimen name="txt_head_size">32sp</dimen>
+    <dimen name="txt_subhead_size">20sp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+  <dimen name="image_width">200dp</dimen>
+  <dimen name="image_height">200dp</dimen>
+
+    <dimen name="image_width_icon">150dp</dimen>
+    <dimen name="image_height_icon">150dp</dimen>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="horizontal_padding">16dp</dimen>
+
+
+    <dimen name="txtForgetSize">24sp</dimen>
+    <dimen name="txtEmailSettingSize">18sp</dimen>
+
+    <dimen name="btnForgetWidth">200dp</dimen>
+
+    <dimen name="editTextPadding">8dp</dimen>
+
+    <dimen name="settings_text_size">26sp</dimen>
+    <dimen name="settings_list_item_size">16sp</dimen>
+
+    <dimen name="edt_txt_layout_height">55dp</dimen>
+    <dimen name="card_edt_txt_corners">7dp</dimen>
+    <dimen name="edt_txt_card_elevation">10dp</dimen>
+    <dimen name="text_size_edt_txt">14sp</dimen>
+
+
+</resources>

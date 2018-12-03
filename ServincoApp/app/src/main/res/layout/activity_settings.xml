@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SettingsActivity"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        tools:context=".SettingsActivity">
+
+        <include layout="@layout/frission_back_low" />
+        <include layout="@layout/frission_back_mid" />
+        <include layout="@layout/frission_back_top" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/backArrowImageVu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_arrow_back_black_24dp" />
+
+                <Button
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_weight="1.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_text"
+                    android:textColor="@color/SettingsTextVu"
+                    android:textSize="@dimen/settings_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:weightSum="7">
+
+                <TextView
+                    android:id="@+id/CleanTextVu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_attach_money_black"
+                    android:drawablePadding="20dp"
+                    android:gravity="start|center"
+                    android:text="@string/first_setting_text_Vu"
+                    android:textColor="@color/SettingsListText"
+                    android:textSize="@dimen/settings_list_item_size" />
+
+                <TextView
+                    android:id="@+id/DataTextVu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_compare_arrows_black"
+                    android:drawablePadding="20dp"
+                    android:gravity="start|center"
+                    android:text="@string/second_setting_text_Vu"
+                    android:textColor="@color/SettingsListText"
+                    android:textSize="@dimen/settings_list_item_size" />
+
+                <TextView
+                    android:id="@+id/PowerTextVu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_battery_charging_full_black"
+                    android:drawablePadding="20dp"
+                    android:gravity="start|center"
+                    android:text="@string/third_setting_text_Vu"
+                    android:textColor="@color/SettingsListText"
+                    android:textSize="@dimen/settings_list_item_size" />
+
+                <TextView
+                    android:id="@+id/SecurityTextVu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_security_black"
+                    android:drawablePadding="20dp"
+                    android:gravity="start|center"
+                    android:text="@string/fourth_setting_text_Vu"
+                    android:textColor="@color/SettingsListText"
+                    android:textSize="@dimen/settings_list_item_size" />
+
+                <TextView
+                    android:id="@+id/FilterTextVu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_do_not_disturb_black"
+                    android:drawablePadding="20dp"
+                    android:gravity="start|center"
+                    android:text="@string/fifth_setting_text_Vu"
+                    android:textColor="@color/SettingsListText"
+                    android:textSize="@dimen/settings_list_item_size" />
+
+                <TextView
+                    android:id="@+id/AppWareTextVu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_view_headline_black"
+                    android:drawablePadding="20dp"
+                    android:gravity="start|center"
+                    android:text="@string/sixth_setting_text_Vu"
+                    android:textColor="@color/SettingsListText"
+                    android:textSize="@dimen/settings_list_item_size" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

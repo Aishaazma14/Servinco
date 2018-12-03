@@ -1,3 +1,64 @@
 <resources>
-    <string name="app_name">ServincoApp</string>
+    <string name="app_name">Servinco</string>
+
+
+    <string name="txt_first_head">Track Easily</string>
+    <string name="txt_first_subhead">Track your beloved ones easily</string>
+
+
+    <string name="txt_second_head">Get A Cab Now</string>
+    <string name="txt_second_subhead">Get a cab service from anywhere</string>
+
+    <string name="txt_third_head">Find Any Location</string>
+    <string name="txt_third_subhead">Get the location of any place</string>
+
+    <string name="txt_fourth_head">Hello Food</string>
+    <string name="txt_fourth_subhead">Order the food from anywhere</string>
+
+    <string name="txt_fifth_head">Feel At Home</string>
+    <string name="txt_fifth_subhead">Feel at home even on the
+        unknown place</string>
+
+
+    <string name="txtForgetPassword">Forgot your password?</string>
+    <string name="txtEmailInstruction">Enter your email below to receive your password
+reset instructions</string>
+
+    <string name="txtHintEmail">Email address</string>
+    <string name="btnSend">SEND</string>
+
+    <string name="txtResetPassword">Reset Password</string>
+    <string name="txtResetDesc">Enter your new password below, we’re
+just being extra safe</string>
+
+    <string name="txtHintResetEmail">Email</string>
+    <string name="txtHintOldPassword">Previous Password</string>
+    <string name="txtHintNewPassword">New Password</string>
+
+
+    <string name="btnResetDone">Done</string>
+
+
+
+    <string name="btn_text_next">NEXT</string>
+    <string name="btn_text_skip">SKIP</string>
+    <string name="btn_text_start">GOT IT</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="sign_up_button">sign up</string>
+
+    <string name="settings_text">Settings</string>
+    <string name="first_setting_text_Vu">Clean Junk</string>
+    <string name="second_setting_text_Vu">Data Usage Control</string>
+    <string name="third_setting_text_Vu">Power Saving Management</string>
+    <string name="fourth_setting_text_Vu">Security and Privacy</string>
+    <string name="fifth_setting_text_Vu">Harrasement Filter</string>
+    <string name="sixth_setting_text_Vu">App warehouse</string>
+
+    <string name="signup_btn_txt">CONTINUE</string>
+    <string name="password_edt_txt_hint">Password</string>
+    <string name="username_edt_txt_hint">Username</string>
+    <string name="email_edt_txt_hint">Email</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="reset_password">Want to reset password</string>
+
 </resources>

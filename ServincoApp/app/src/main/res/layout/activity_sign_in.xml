@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".activities.">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:visibility="invisible"
+                android:id="@+id/btnSignInInvisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@null"
+                android:textColor="#9e9b9b"
+                android:text=   "@string/sign_up_button" />
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/custom_button_design"
+                android:text="@string/sign_in_button"
+                android:textColor="@color/colorTextButton"/>
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@null"
+                android:text="@string/sign_up_button"
+                android:textColor="#9e9b9b"/>
+            <Button
+                android:visibility="invisible"
+                android:id="@+id/btnSignUpInsvisble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/custom_button_design"
+                android:text="@string/sign_in_button"
+                android:textColor="@color/colorTextButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="@dimen/card_edt_txt_corners"
+                app:cardElevation="@dimen/edt_txt_card_elevation">
+
+
+                <EditText
+                    android:id="@+id/edtTxtUserEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edt_txt_layout_height"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:textSize="@dimen/text_size_edt_txt"
+                    android:hint="@string/email_edt_txt_hint"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="16dp"
+                    android:textColorHint="@color/hintColorEditText" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="@dimen/card_edt_txt_corners"
+                app:cardElevation="@dimen/edt_txt_card_elevation">
+
+                <EditText
+                    android:id="@+id/edtTxtUserPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edt_txt_layout_height"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:textSize="@dimen/text_size_edt_txt"
+                    android:hint="@string/password_edt_txt_hint"
+                    android:inputType="textPassword"
+                    android:paddingLeft="16dp"
+                    android:textColorHint="@color/hintColorEditText" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <!--this is the gap-->
+        <!--this is the gap ending-->
+
+
+            <Button
+                android:visibility="invisible"
+                android:id="@+id/btnInvisible"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/custom_rounded_transparent_button"
+                android:text="@string/signup_btn_txt"
+                android:textColor="@color/colorTextButton" />
+
+            <Button
+                android:id="@+id/btnSignInContin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_rounded_transparent_button"
+                android:text="@string/signup_btn_txt"
+                android:textColor="@color/colorTextButton" />
+            <Button
+                android:id="@+id/btnSigninResetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@null"
+                android:text="RESET PASSWORD"
+                android:textColor="#707070" />
+
+            <Button
+                android:id="@+id/btnSigninForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@null"
+                android:text="@string/forgot_password"
+                android:textColor="#707070" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edt_txt_layout_height">55dp</dimen>
+    <dimen name="card_edt_txt_corners">7dp</dimen>
+    <dimen name="edt_txt_card_elevation">10dp</dimen>
+</resources>

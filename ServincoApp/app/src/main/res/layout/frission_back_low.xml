@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:frisson="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.intrusoft.library.FrissonView
+        android:id="@+id/frission_view_low"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        frisson:alphaValue="100"
+        frisson:tintColor="#50B5DF"
+        frisson:gradientType="linear"
+        frisson:gradient_endColor="#cc77e2df"
+        frisson:gradient_startColor="#004CB7E3"
+        frisson:tideCount="3"
+        frisson:tideHeight="100dp"
+        frisson:gradientAngle="200" />
+
+</LinearLayout>

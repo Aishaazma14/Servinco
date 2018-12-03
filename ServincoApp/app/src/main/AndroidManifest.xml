@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="servinco.infosys_sol.com">
 
+
+    <!--here will be the permissions that are not needed programatically-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +16,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+
+        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name=".activities.MapsActivity">g</activity>
+
+
+
+
+
+        <activity android:name=".activities.SplashScreenActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.SignInActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.WelcomActivity" />
+        <activity android:name=".activities.SignUpActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
+
+        <activity android:name=".activities.SettingsActivity">
+
+        </activity>
+
+        <activity android:name=".activities.ForgetPasswordActivity" />
+        <activity android:name=".activities.ResetPasswordActivity"></activity>
+
+
+
+
     </application>
+
+
 
 </manifest>
